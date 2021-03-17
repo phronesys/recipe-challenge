@@ -1,0 +1,29 @@
+{
+  "name": "recipe-challenge",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch":  "postcss css/tailwind.css -o public/build/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phronesys/recipe-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phronesys/recipe-challenge/issues"
+  },
+  "homepage": "https://github.com/phronesys/recipe-challenge#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
