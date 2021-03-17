@@ -31232,11 +31232,12 @@ video {
   line-height: 1rem;
 }
 
-.instructions {
+/* .instructions {
   display: grid;
   grid-template-columns: 1fr 8fr;
-  grid-template-areas: "";
-}
+  grid-template-rows:  
+  grid-template-areas: ""; 
+} */
 
 /* Customize the label  */
 
@@ -31298,7 +31299,7 @@ video {
 /* When the checkbox is checked, add a blue background */
 
 .label input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: #f59e0b;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
