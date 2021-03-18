@@ -25,6 +25,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 95%;
 }
 .welcome__icon {
   color: #c4c4c4;
@@ -48,12 +49,39 @@
   font-size: 0.7rem;
   line-height: 1rem;
 }
-/* .instructions {
-  display: grid;
-  grid-template-columns: 1fr 8fr;
-  grid-template-rows:  
-  grid-template-areas: ""; 
-} */
+@media (min-width: 768px) {
+  /* overview */
+  .text-area {
+    @apply pl-2;
+  }
+  .text-area__sub {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+  } 
+  .overview__dining {
+    font-size: 30px;
+  }
+  .overview__clock {
+    font-size: 30px;
+  }
+  .label {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+  }
+  .label__important {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+  .label__suggestions {
+    color: #333;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
 
 /* Customize the label  */
 .label {

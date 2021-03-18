@@ -31202,6 +31202,7 @@ video {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 95%;
 }
 
 .welcome__icon {
@@ -31232,12 +31233,26 @@ video {
   line-height: 1rem;
 }
 
-/* .instructions {
-  display: grid;
-  grid-template-columns: 1fr 8fr;
-  grid-template-rows:  
-  grid-template-areas: ""; 
-} */
+@media (min-width: 768px) {
+  /* overview */
+
+  .text-area {
+    padding-left: 0.5rem;
+  }
+
+  .text-area__sub {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+  }
+
+  .overview__dining {
+    font-size: 30px;
+  }
+
+  .overview__clock {
+    font-size: 30px;
+  }
+}
 
 /* Customize the label  */
 
